@@ -1,4 +1,4 @@
-def convert(self, s, numRows):
+def convert(s, numRows):
         """
         :type s: str
         :type numRows: int
@@ -22,3 +22,6 @@ def convert(self, s, numRows):
             else:
                 count-=1
         return "".join([ch for sublist in h.values() for ch in sublist])
+
+print convert("PAYPAL IS HIRING", 4)
+
